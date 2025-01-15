@@ -53,7 +53,7 @@ public class FeedbackService {
         feedback.setEditedTranslatedText(feedbackDTO.getEditedTranslatedText()); // Set edited translated text
         feedback.setTargetLanguageId(feedbackDTO.getTargetLanguageId());
         //feedback.setRating(feedbackDTO.getRating());
-        feedback.setScore(feedbackDTO.getScore());
+        feedback.setRatingScore(feedbackDTO.getRatingScore());
         feedback.setSentToTranslationApp(YesNo.NO);
         feedback = feedbackRepository.save(feedback);
 

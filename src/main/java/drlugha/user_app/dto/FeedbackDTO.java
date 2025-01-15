@@ -9,7 +9,7 @@ public class FeedbackDTO {
     private String targetLanguage;
     private Long targetLanguageId;
     private String rating;
-    private Integer score;
+    private Integer ratingScore;
 
     public String getSourceText() {
         return sourceText;
@@ -59,12 +59,12 @@ public class FeedbackDTO {
         this.editedTranslatedText = editedTranslatedText;
     }
 
-    public Integer getScore() {
-        return score;
+    public Integer getRatingScore() {
+        return ratingScore;
     }
 
-    public void setScore(Integer score) {
-        this.score = score;
+    public void setRatingScore(Integer ratingScore) {
+        this.ratingScore = ratingScore;
     }
 
     public Long getSourceLanguageId() {

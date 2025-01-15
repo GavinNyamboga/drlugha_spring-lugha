@@ -113,11 +113,11 @@ public class Feedback extends BaseEntity {
         this.editedTranslatedText = editedTranslatedText;
     }
 
-    public Integer getScore() {
+    public Integer getRatingScore() {
         return ratingScore;
     }
 
-    public void setScore(Integer ratingScore) {
+    public void setRatingScore(Integer ratingScore) {
         this.ratingScore = ratingScore;
     }
 
